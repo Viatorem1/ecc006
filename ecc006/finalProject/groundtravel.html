@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <link rel="shortcut icon" type="image/gif" href="images/ticon.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+   <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/ticon.png" alt="logo" height="28"></a>
+        <a href="about.html">About</a>
+        <a href="groundtravel.html">Ground travel</a>
+        <a href="watertravel.html">Water travel</a>
+        <a href="airtravel.html">Air travel</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <span>🏷</span>
+        </a>
+      </div>
+
+           <div class="card column"> 
+              <img src="images/walkingman.png" style="width:200px;height:200px;padding:20px;" alt="walker man">
+              <div class="card-body">
+              <h2>Traveling on foot</h2>
+              <p> Walking is the oldest way of travel and more than just sport. It lets us to feel everything on our travel from ground to air. Travelers are free to choose any path they can walk. They can stop or continue on their way whenever they want. Travelers can see much more places in other travel options and do activities like camping and cooking</p>
+           </div>
+           </div> 
+
+           <div class="card column"> 
+            <img src="images/car.png" style="width:200px;height:200px;padding:20px;" alt="driver woman">
+            <div class="card-body">
+            <h2> Traveling by vehicles</h2>
+            <p> Traveling with vehicles is the choice of most people, thanks to the abundance of opportunities. Today, almost every person owns a vehicle and can travel almost anywhere he wants whenever he wants. Another reason why people frequently prefer this mode of travel is that the load limits are limited only by the capacity of their vehicles. They can easily carry their pets with them and take a break whenever they want.</p>
+         </div>
+         </div> 
+
+         <div class="card column"> 
+            <img src="images/train.png" style="width:200px;height:200px;padding:20px;" alt="walker man">
+            <div class="card-body">
+            <h2>Traveling by train</h2>
+            <p>While trains are one of the most effective means of public transportation, they can be more comfortable in most transportation options. Trains have attracted great interest since the day they were invented, and they have been both low-cost and fast means of transportation. They can be a good means of travel according to the route and environment of the train.</p>
+         </div>
+         </div> 
+
+      </div>
+   </div> 
+
+      <br>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+
+   </body>
+   
+</html>
