@@ -10,7 +10,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #ED242F;
+  background-color: lime;
 }
 
 .topnav a {
@@ -64,7 +64,7 @@ body {
 /* hero */
 .hero{
   border: 1px solid #121212;
-  background: url(images/banner.png);
+  background: url(images/world.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -100,7 +100,7 @@ h3{
    margin: 0;
 }
 body a{
-   background-color: #ED242F;
+   background-color: limegreen;
    color: #fff;
    font-size: 30px;
    text-decoration: none;
