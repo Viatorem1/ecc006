@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <link rel="shortcut icon" type="image/gif" href="images/ticon.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+   <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/ticon.png" alt="logo" height="28"></a>
+        <a href="about.html">About</a>
+        <a href="groundtravel.html">Ground travel</a>
+        <a href="watertravel.html">Water travel</a>
+        <a href="airtravel.html">Air travel</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <span>🏷</span>
+        </a>
+      </div>
+
+      <div id="airtravel">
+      <div class="card row"> 
+          <div class="card row"> 
+               <img src="images/plane2.png" alt="plane picture">
+               <div class="card-body">
+                  <h2>TRAVELING ON AIR</h2>
+                  <p>Traveling on air with planes is the fastest way of traveling, best choice to see places far from us. Air travel can be separated into two general classifications: national/domestic and international flights. Flights from one point to another within the same country are called domestic flights. Flights from a point in one country to a point within a different country are known as international flights. Travelers can use domestic flights to travel in their country or international flights to see other countries ,see new places and meet with new people.</p>
+            </div>
+          </div> 
+
+      </div> 
+   </div> 
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+
+   </body>
+   
+</html>
